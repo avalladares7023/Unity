@@ -1,0 +1,62 @@
+AI Code Notes:
+* The primary error shown in VS Code
+[{
+	"resource": "/C:/Users/valla/Downloads/mvti1-computer_vision-688e440ef26a/mvti1-computer_vision-688e440ef26a/20141118/20141118/Lowfreq/",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": "0",
+	"severity": 8,
+	"message": "The project was not built since its build path is incomplete. Cannot find the class file for java.lang.Object. Fix the build path then try building this project",
+	"source": "Java",
+	"startLineNumber": 1,
+	"startColumn": 1,
+	"endLineNumber": 1,
+	"endColumn": 1
+}]
+ -> Majority of the issues is related to the imports and the build path though I am currently trying to fix the issue by 
+    configuring the build path in Eclipse.
+ -> May need to install Android Studio since at it's core it is a Java IDE with added Android development tools.
+
+The difference between Java Development Kit (JDK) and the Android Development (ADK)
+* JDK
+  - JDK is used to develop Java applications and contains the jars, libraries, and tools that allows us to write and 
+    compile java files that can run on the JRE (Java Runtime Environment).
+  - In android apps, JDK provides logical operations
+* ADK
+  - ADK contains the support for emulators and tools to help with developing Android apps. The development kit is 
+    essentially uses Java with the only difference being certain packages.
+  - In android apps, the android SDK provides the GUI, APIs, and other hardware operations for android os
+  - Android Software Development Tools:
+    	> Android Studio
+    	> Gradle
+	> IntelliJ IDEA
+  - Directory Layout
+    -> manifests
+    ----> It seems that it utilizes .xml to help describe the fundamental characteristics of the application and define 
+    	  each of its components
+    -> java
+    -> res
+    ----> drawable
+    -------> drawable-hdpi is a directory for drawable objects that are designed for high-density screens
+    ----> layout
+    -------> this is a directory for files that define the app's UI
+    ----> values
+    -------> this is a directory for other various XML files that contain a collection of resources, like strings 
+	     and colors definition
+    -> Gradle Scripts
+
+ImageProcessor.java
+ - onCreate ()
+ - onAttachedToWindow()
+ - onCreateOptionsMenu()
+ - onOptionsItemSelected()
+ - onOptionsMenuClosed()
+ - post()
+ - onResume()
+ - onDestroy()
+ - BaseLoaderCallback()
+ - onManagerConnected()
+ - callLocation()
+ - onInit()
+ - speak()
+ - countdown()
+ -  
